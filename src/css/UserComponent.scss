@@ -1,0 +1,100 @@
+.outer-wrapper{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    cursor: pointer;
+}
+
+
+
+.image{
+    height: inherit;
+    width: 25%;
+    background: #373737;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+@media (max-width: 640px){
+    .img{
+        width:inherit;
+        height:inherit;
+    }
+}
+.name-text{
+    height: inherit;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+/* .name-text:hover{
+    background-color: #848484;
+} */
+
+.name{
+    background: #373737;
+    font-size: 14px;
+    
+}
+
+.text{
+    background: #373737;
+    font-size: 10px;
+    width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media (max-width: 640px){
+    .name{
+        background: #373737;
+        font-size: 19px;
+        width: 90%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+
+
+@media (max-width: 640px){
+    .text{
+        background: #373737;
+        font-size: 15px;
+        width: 90%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+.option{
+    height: inherit;
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-icon{
+    background: #373737;
+}
+
+.time{
+    background:#373737;
+    font-size: 10px;
+}

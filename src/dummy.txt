@@ -1,0 +1,11 @@
+
+class root  extends React.Component{
+    render(){
+    return(
+<Router>
+    <Router history={browserHistory}></Router>
+
+</Router>
+    );
+    }
+}

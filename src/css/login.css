@@ -1,0 +1,159 @@
+.container-wrapper {
+  background: linear-gradient(180deg, #29db29 50%, #fff 50%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+@media (max-width: 640px) {
+  .container-wrapper {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
+
+@media (max-width: 568px) {
+  .container-wrapper {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1%; } }
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.row1 {
+  flex: 2;
+  order: 1;
+  width: 100%;
+  height: 10%;
+  background-color: #29db29; }
+
+.row2 {
+  width: 100%;
+  height: 50%;
+  background-color: #ffffff; }
+
+.form-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 25px solid white;
+  align-self: center;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff; }
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+/*@media (max-width: 640px){
+    .form{
+        font-size:20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        //flex-wrap: wrap;
+    }
+  }*/
+h1, h4 {
+  text-align: center;
+  color: #111;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter; }
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf; }
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999; }
+
+input.error {
+  border: 1px solid red; }
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative; }
+
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px; }
+
+.email,
+.password {
+  width: 100%; }
+
+.LOGIN {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.LOGIN button {
+  background-color: #29db29;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin-bottom: 2vh;
+  margin-left: 12em; }
+
+/* @media (max-width: 568px){
+    .LOGIN button{
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 25%;
+    }
+  }*/
+.remember {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 12em;
+  margin-bottom: 2vh;
+  text-align: center;
+  padding: bottom none;
+  padding: top 0; }
+
+.connect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; }
+
+.connect ion-icon {
+  display: inline;
+  font-size: 26px;
+  padding: 0 10px; }
+
+@media (max-width: 640px) {
+  .message_1 {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    margin: 10px;
+    align-items: center;
+    justify-content: flex-start; } }

@@ -1,0 +1,233 @@
+.columns {
+  display: flex;
+  background-color: white;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw; }
+
+.col1 {
+  background-color: #241D24;
+  width: 10%; }
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  border-bottom: solid 1px #808080;
+  color: white;
+  /* margin-left:25%; */
+  font-size: 30px;
+  cursor: pointer; }
+
+/* 
+.whatsapp ion-icon{
+    border-top: 0.5px solid #D4D4D4;
+    color:white;
+    margin-left:-40%;
+    font-size: 36px;
+    padding: 25%;
+} */
+/* .gmail ion-icon{
+    color:white;
+    margin-left:-40%;
+    font-size: 36px;
+    padding: 25%
+    
+}
+
+.skype ion-icon{
+    color:white;
+    margin-left:-40%;
+    font-size: 36px;
+    padding: 25%
+     
+} */
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  padding: 20px 0px;
+  color: #fff;
+  cursor: pointer; }
+
+/* 
+.instagram ion-icon{
+    color:white;
+    margin-left:-40%;
+    font-size: 36px;
+    padding: 25%
+    
+}
+
+.others ion-icon{
+    color:white;
+    margin-left:-40%;
+    font-size: 36px;
+    padding: 25%;
+    
+} */
+/* .col1 li :hover {
+    background-color: #bdbaba ;
+    
+} */
+.col2 {
+  background-color: #242424;
+  width: 20%;
+  /* word-spacing:42px; */
+  /* flex-wrap:nowrap; */
+  color: white; }
+
+/* 
+ .col2 p:hover{
+    background-color: #bdbaba ;
+ } */
+.gmail-row-content {
+  padding: 5px 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.left {
+  padding-left: 10px; }
+
+.right {
+  padding-right: 10px; }
+
+.inbox {
+  border-bottom: 1px solid #808080;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  /* padding: 5%; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5px;
+  align-items: center; }
+
+.inbox ion-icon {
+  color: white;
+  border-radius: 2px;
+  /* margin-top:-95px;
+    margin-left:90%; */
+  font-size: 30px; }
+
+.col2 {
+  color: white; }
+
+.col3 {
+  background-color: #373737;
+  width: 30%; }
+
+.search {
+  font-size: 20px;
+  border-bottom: 1px solid #808080;
+  background-color: #373737;
+  padding: 20px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@media (max-width: 640px) {
+  .search {
+    width: 25%;
+    margin-left: 50%; } }
+
+.search input {
+  background: transparent;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  padding: 2px 20px;
+  /* margin-left: 5px;
+     position: static; */ }
+
+.search ion-icon {
+  position: relative;
+  top: 10px;
+  left: 30px; }
+
+.col4 {
+  background-color: #eee;
+  width: 35%; }
+
+.typing {
+  font-size: 20px;
+  border-bottom: 1px solid #808080;
+  background-color: white;
+  padding: 20px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100%; }
+
+.typing input {
+  background: transparent;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  color: black;
+  font-size: 17px;
+  padding: 2px 20px;
+  /* margin-left: 5px;
+     position: static; */ }
+
+@media (max-width: 640px) {
+  .typing {
+    display: none; } }
+
+.col5 {
+  background-color: #FFFFFF;
+  width: 35%; }
+
+.col5_line1 {
+  display: flex;
+  border-bottom: 0.5px solid grey;
+  height: 71px;
+  align-items: center;
+  justify-content: space-between; }
+
+.alrm {
+  color: black;
+  font-size: 30px;
+  padding: 0 30px; }
+
+.col5_line2 {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: space-between;
+  padding: 0 20px; }
+
+.ion ion-icon {
+  color: black;
+  font-size: 20px; }
+
+.point {
+  flex-direction: column;
+  font-size: 25px; }
+
+@media (max-width: 640px) {
+  .col2 {
+    display: none; } }
+
+@media (max-width: 640px) {
+  .col5 {
+    display: none; } }
+
+@media (max-width: 640px) {
+  .col1 {
+    display: none; } }
+
+@media (max-width: 640px) {
+  .col3 {
+    width: 50%;
+    height: 200%; } }
+
+@media (max-width: 640px) {
+  .col4 {
+    width: 60%;
+    height: 200%; } }

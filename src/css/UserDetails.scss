@@ -1,0 +1,53 @@
+.outer-wrapper1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.user_image{
+    align-self: center;
+    display: flex;
+    img{
+        height: 200px;
+        width: 200px;
+        border-radius: 5%;
+    }
+    padding: 20px 0;
+}
+
+.name-center{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    
+    .name{
+        font-size: 20px;
+        font-weight: 500;
+        background: transparent;
+        text-align: center;
+    }
+    .address{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+.top{
+    padding:0 5px;
+    border-bottom: 1px solid #808080;
+    display: flex;
+    flex-direction: column;
+}
+.text-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 5px 20px;
+    
+    .left{
+        color: #a9a9a9;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
